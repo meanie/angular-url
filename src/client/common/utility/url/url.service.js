@@ -16,11 +16,16 @@ angular.module('Utility.Url.Service', [])
     concat: function() {
       var parts = [];
       for (var i = 0; i < arguments.length; i++) {
-        if (arguments[i] && typeof arguments[i] === 'string') {
-          parts.push(arguments[i]);
+        var part = arguments[i];
+        if (part === null || part === undefined || part === true || part === false) {
+          continue;
+        }
+        part = String(part);
+        if (part !== '') {
+          parts.push(part);
         }
       }
-      return parts.join('/').replace(/([^:])\/\//g, '$1/');
+      return parts.join('/').replace(/([^:])(\/\/+)/g, '$1/');
     },
 
     /**
