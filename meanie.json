@@ -1,6 +1,5 @@
 {
-  "cliVersion": "0.4.6",
-  "instructions": "https://github.com/meanie/angular-url#usage",
-  "postInstall": "",
-  "dependencies": {}
+  "cliVersion": "0.5.0",
+  "destination": "client/common/utility/url",
+  "instructions": "https://github.com/meanie/angular-url#usage"
 }
