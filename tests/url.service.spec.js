@@ -5,7 +5,7 @@
 describe('Url', function() {
 
   //Load module and service
-  beforeEach(module('Utility.Url.Service'));
+  beforeEach(module('Url.Service'));
 
   //Inject url service
   var $url;

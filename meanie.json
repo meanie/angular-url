@@ -1,5 +1,5 @@
 {
-  "cliVersion": "0.5.0",
-  "destination": "client/common/utility/url",
+  "cliVersion": "0.6.0",
+  "destination": "client/vendor/meanie-angular-url",
   "instructions": "https://github.com/meanie/angular-url#usage"
 }

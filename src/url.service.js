@@ -2,7 +2,7 @@
 /**
  * Module definition and dependencies
  */
-angular.module('Utility.Url.Service', [])
+angular.module('Url.Service', [])
 
 /**
  * Factory definition

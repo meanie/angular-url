@@ -1,0 +1,13 @@
+{
+  "name": "meanie-angular-url",
+  "version": "0.3.0",
+  "main": "./src/url.service.js",
+  "ignore": [
+    "**/.*",
+    "karma.conf.js",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.4.3"
+  }
+}
