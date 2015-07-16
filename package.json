@@ -1,6 +1,6 @@
 {
   "name": "meanie-angular-url",
-  "description": "AngularJS module with a Url helper service",
+  "description": "AngularJS module to provide URL helpers",
   "version": "0.3.0",
   "homepage": "https://github.com/meanie/angular-url",
   "author": {

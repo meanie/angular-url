@@ -1,7 +1,7 @@
 {
   "name": "meanie-angular-url",
   "version": "0.3.0",
-  "main": "./src/url.service.js",
+  "main": "./release/meanie-angular-url.js",
   "ignore": [
     "**/.*",
     "gulpfile.js",

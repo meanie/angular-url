@@ -6,7 +6,7 @@
 [![codacy](https://img.shields.io/codacy/ec65c86183234042b3525691b8ac8a62.svg)](https://www.codacy.com/app/meanie/angular-url)
 [![Join the chat at https://gitter.im/meanie/meanie](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/meanie/meanie?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-An AngularJS module with a Url helper service
+AngularJS module to provide URL helpers
 
 ## Installation
 
@@ -56,7 +56,6 @@ angular.module('App.MyModule', ['Url.Service']);
 
 ## Usage
 
-Use it in your modules:
 ```js
 angular.module('App.MyModule').controller('MyController', function($url) {
 
@@ -72,6 +71,8 @@ angular.module('App.MyModule').controller('MyController', function($url) {
 Please report any bugs, issues, suggestions and feature requests in the [meanie-angular-url issue tracker](https://github.com/meanie/angular-url/issues).
 
 ## Contributing
+
+Pull requests are welcome! Please create them against the [dev branch](https://github.com/meanie/angular-url/tree/dev) of the repository.
 
 If you would like to contribute to Meanie, please check out the [Meanie contributing guidelines](https://github.com/meanie/meanie/blob/master/CONTRIBUTING.md).
 
