@@ -1,3 +1,11 @@
+/**
+ * meanie-angular-url - v0.3.0 - 16-6-2015
+ * https://github.com/meanie/angular-url
+ *
+ * Copyright (c) 2015 Adam Buczynski <me@adambuczynski.com>
+ * License: MIT
+ */
+(function (window, angular, undefined) {'use strict';
 
 /**
  * Module definition and dependencies
@@ -51,3 +59,5 @@ angular.module('Url.Service', [])
     }
   };
 });
+
+})(window, window.angular);
