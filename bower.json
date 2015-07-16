@@ -4,7 +4,9 @@
   "main": "./src/url.service.js",
   "ignore": [
     "**/.*",
+    "gulpfile.js",
     "karma.conf.js",
+    "src",
     "tests"
   ],
   "dependencies": {

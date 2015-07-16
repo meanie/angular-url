@@ -45,7 +45,7 @@ bower install meanie-angular-url
 Add a `<script>` to your `index.html`:
 
 ```html
-<script src="/bower_components/meanie-angular-url/src/url.service.js"></script>
+<script src="/bower_components/meanie-angular-url/release/meanie-angular-url.js"></script>
 ```
 
 Then add `Url.Service` as a dependency for your app:
