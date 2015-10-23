@@ -1,5 +1,5 @@
 /**
- * meanie-angular-url - v0.4.2 - 31-6-2015
+ * meanie-angular-url - v1.0.0 - 23-9-2015
  * https://github.com/meanie/angular-url
  *
  * Copyright (c) 2015 Adam Buczynski <me@adambuczynski.com>
