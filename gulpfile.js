@@ -96,15 +96,17 @@ function bannerWrapper() {
 /**
  * Clean the public folder
  */
-function clean(done) {
-  del('release', done);
+function clean() {
+  return del('release');
 }
 
 /**
  * Build release files
  */
 function release() {
-  var jsFilter = filter(['*.js']);
+  var jsFilter = filter(['*.js'], {
+    restore: true
+  });
   return gulp.src([
     'src/**/*.js'
   ]).pipe(ngAnnotate({
@@ -120,7 +122,7 @@ function release() {
     .pipe(sourcemaps.write('./'))
     .pipe(jsFilter)
     .pipe(wrapper(bannerWrapper()))
-    .pipe(jsFilter.restore())
+    .pipe(jsFilter.restore)
     .pipe(gulp.dest('release'));
 }
 
