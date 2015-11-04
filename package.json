@@ -1,7 +1,7 @@
 {
   "name": "meanie-angular-url",
   "description": "AngularJS module to provide URL helpers",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://github.com/meanie/angular-url",
   "author": {
     "name": "Adam Buczynski",

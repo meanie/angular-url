@@ -1,5 +1,5 @@
 /**
- * meanie-angular-url - v1.0.4 - 23-9-2015
+ * meanie-angular-url - v1.0.5 - 4-10-2015
  * https://github.com/meanie/angular-url
  *
  * Copyright (c) 2015 Adam Buczynski <me@adambuczynski.com>
@@ -33,7 +33,7 @@ angular.module('Url.Service', [])
           parts.push(part);
         }
       }
-      return parts.join('/').replace(/([^:])(\/\/+)/g, '$1/');
+      return parts.join('/').replace(/([^:])(\/\/+)/g, '$1/').replace(/^\/\//, '/');
     },
 
     /**
