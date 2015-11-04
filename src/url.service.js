@@ -25,7 +25,7 @@ angular.module('Url.Service', [])
           parts.push(part);
         }
       }
-      return parts.join('/').replace(/([^:])(\/\/+)/g, '$1/');
+      return parts.join('/').replace(/([^:])(\/\/+)/g, '$1/').replace(/^\/\//, '/');
     },
 
     /**

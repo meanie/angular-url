@@ -82,5 +82,13 @@ describe('Url', function() {
       url = $url.concat('foo', undefined, 'bar');
       expect(url).toBe('foo/bar');
     });
+    it('should strip redundant single leading slashes', function() {
+      url = $url.concat('/', '/foo');
+      expect(url).toBe('/foo');
+    });
+    it('should strip redundant single trailing slashes', function() {
+      url = $url.concat('foo/', '/');
+      expect(url).toBe('foo/');
+    });
   });
 });
