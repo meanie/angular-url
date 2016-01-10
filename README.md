@@ -6,35 +6,25 @@
 [![codacy](https://img.shields.io/codacy/ec65c86183234042b3525691b8ac8a62.svg)](https://www.codacy.com/app/meanie/angular-url)
 [![Join the chat at https://gitter.im/meanie/meanie](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/meanie/meanie?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-AngularJS module to provide URL helpers
+An Angular service to provide URL helpers
 
 ## Installation
 
-You can install this package using `meanie`, `npm` or `bower`.
-
-### meanie
-
-```shell
-meanie install angular-url
-```
-
-Then add `Url.Service` as a dependency for your app:
-
-```js
-angular.module('App.MyModule', ['Url.Service']);
-```
+You can install this package using `npm` or `bower`.
 
 ### npm
 
 ```shell
-npm install meanie-angular-url
+npm install meanie-angular-url --save
 ```
 
-Then add as a dependency for your app:
+Include the script `node_modules/meanie-angular-url/release/meanie-angular-url.js` in your build process, or add it via a `<script>` tag to your `index.html`:
 
-```js
-angular.module('App.MyModule', [require('meanie-angular-url')]);
+```html
+<script src="node_modules/meanie-angular-url/release/meanie-angular-url.js"></script>
 ```
+
+Add `Url.Service` as a dependency for your app.
 
 ### bower
 
@@ -42,17 +32,13 @@ angular.module('App.MyModule', [require('meanie-angular-url')]);
 bower install meanie-angular-url
 ```
 
-Add a `<script>` to your `index.html`:
+Include the script `bower_components/meanie-angular-url/release/meanie-angular-url.js` in your build process, or add it via a `<script>` tag to your `index.html`:
 
 ```html
-<script src="/bower_components/meanie-angular-url/release/meanie-angular-url.js"></script>
+<script src="bower_components/meanie-angular-url/release/meanie-angular-url.js"></script>
 ```
 
-Then add `Url.Service` as a dependency for your app:
-
-```js
-angular.module('App.MyModule', ['Url.Service']);
-```
+Add `Url.Service` as a dependency for your app.
 
 ## Usage
 
@@ -80,4 +66,4 @@ If you would like to contribute to Meanie, please check out the [Meanie contribu
 
 (MIT License)
 
-Copyright 2015, [Adam Buczynski](http://adambuczynski.com)
+Copyright 2015-2016, [Adam Buczynski](http://adambuczynski.com)

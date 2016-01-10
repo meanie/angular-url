@@ -1,8 +1,8 @@
 /**
- * meanie-angular-url - v1.0.5 - 4-10-2015
+ * meanie-angular-url - v1.0.5 - 10-0-2016
  * https://github.com/meanie/angular-url
  *
- * Copyright (c) 2015 Adam Buczynski <me@adambuczynski.com>
+ * Copyright (c) 2016 Adam Buczynski <me@adambuczynski.com>
  * License: MIT
  */
 (function(window, angular, undefined) {'use strict';
