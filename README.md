@@ -12,9 +12,7 @@ An Angular service to provide URL helpers
 
 ## Installation
 
-You can install this package using `npm` or `bower`.
-
-### npm
+You can install this package using `npm`:
 
 ```shell
 npm install meanie-angular-url --save
@@ -24,20 +22,6 @@ Include the script `node_modules/meanie-angular-url/release/meanie-angular-url.j
 
 ```html
 <script src="node_modules/meanie-angular-url/release/meanie-angular-url.js"></script>
-```
-
-Add `Url.Service` as a dependency for your app.
-
-### bower
-
-```shell
-bower install meanie-angular-url
-```
-
-Include the script `bower_components/meanie-angular-url/release/meanie-angular-url.js` in your build process, or add it via a `<script>` tag to your `index.html`:
-
-```html
-<script src="bower_components/meanie-angular-url/release/meanie-angular-url.js"></script>
 ```
 
 Add `Url.Service` as a dependency for your app.
