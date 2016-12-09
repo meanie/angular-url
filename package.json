@@ -1,7 +1,7 @@
 {
   "name": "meanie-angular-url",
   "description": "An Angular service to provide URL helpers",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "homepage": "https://github.com/meanie/angular-url",
   "author": {
     "name": "Adam Reis",
