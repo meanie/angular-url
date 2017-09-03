@@ -1,7 +1,7 @@
 {
   "name": "@meanie/angular-url",
   "description": "An Angular service to provide URL helpers",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/meanie/angular-url",
   "author": {
     "name": "Adam Reis",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "angular": "^1.6.6",
     "angular-mocks": "^1.6.6",
-      "babel-core": "^6.26.0",
+    "babel-core": "^6.26.0",
     "babel-preset-es2015-without-strict": "^0.0.4",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-babel": "^7.0.0",
