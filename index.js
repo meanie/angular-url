@@ -1,2 +1,2 @@
-require('./release/meanie-angular-url.js');
+require('./release/angular-url.js');
 module.exports = 'Url.Service';

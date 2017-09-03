@@ -1,6 +1,6 @@
-# meanie-angular-url
+# @meanie/angular-url
 
-[![npm version](https://img.shields.io/npm/v/meanie-angular-url.svg)](https://www.npmjs.com/package/meanie-angular-url)
+[![npm version](https://img.shields.io/npm/v/@meanie/angular-url.svg)](https://www.npmjs.com/package/@meanie/angular-url)
 [![node dependencies](https://david-dm.org/meanie/angular-url.svg)](https://david-dm.org/meanie/angular-url)
 [![github issues](https://img.shields.io/github/issues/meanie/angular-url.svg)](https://github.com/meanie/angular-url/issues)
 [![codacy](https://img.shields.io/codacy/ec65c86183234042b3525691b8ac8a62.svg)](https://www.codacy.com/app/meanie/angular-url)
@@ -12,16 +12,20 @@ An Angular service to provide URL helpers
 
 ## Installation
 
-You can install this package using `npm`:
+You can install this package using `yarn` or `npm`:
 
 ```shell
-npm install meanie-angular-url --save
+#yarn
+yarn add @meanie/angular-url
+
+#npm
+npm install @meanie/angular-url --save
 ```
 
-Include the script `node_modules/meanie-angular-url/release/meanie-angular-url.js` in your build process, or add it via a `<script>` tag to your `index.html`:
+Include the script `node_modules/@meanie/angular-url/release/angular-url.js` in your build process, or add it via a `<script>` tag to your `index.html`:
 
 ```html
-<script src="node_modules/meanie-angular-url/release/meanie-angular-url.js"></script>
+<script src="node_modules/@meanie/angular-url/release/angular-url.js"></script>
 ```
 
 Add `Url.Service` as a dependency for your app.
@@ -40,7 +44,7 @@ angular.module('App.MyModule').controller('MyController', function($url) {
 
 ## Issues & feature requests
 
-Please report any bugs, issues, suggestions and feature requests in the [meanie-angular-url issue tracker](https://github.com/meanie/angular-url/issues).
+Please report any bugs, issues, suggestions and feature requests in the [@meanie/angular-url issue tracker](https://github.com/meanie/angular-url/issues).
 
 ## Contributing
 
@@ -54,4 +58,4 @@ Pull requests are welcome! If you would like to contribute to Meanie, please che
 
 (MIT License)
 
-Copyright 2015-2017, [Adam Reis](http://adam.reis.nz)
+Copyright 2015-2017, [Adam Reis](https://adam.reis.nz)

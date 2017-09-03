@@ -8,7 +8,7 @@ describe('Url', function() {
   beforeEach(module('Url.Service'));
 
   //Inject url service
-  var $url;
+  let $url;
   beforeEach(inject(function(_$url_) {
     $url = _$url_;
   }));
@@ -17,7 +17,7 @@ describe('Url', function() {
    * Concatenation
    */
   describe('concatenation', function() {
-    var url;
+    let url;
     it('should just return one URL part', function() {
       url = $url.concat('/foo');
       expect(url).toBe('/foo');
